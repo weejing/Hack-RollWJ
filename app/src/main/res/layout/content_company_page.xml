@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/company"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.weejing.myapplication.companyPage"
+    tools:showIn="@layout/activity_company_page">
+
+    <GridLayout
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <ImageButton
+            android:id = "@+id/toUpdate"
+            android:onClick="goUpdate"
+            android:src="@drawable/updatemenu"
+            android:layout_width="wrap_content" />
+
+        <ImageButton
+            android:id = "@+id/toNotification"
+            android:onClick="goNotification"
+            android:src="@drawable/notification"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id = "@+id/toOrders"
+            android:onClick="goCurrent"
+            android:src="@drawable/currentorder"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id = "@+id/toSettings"
+            android:onClick="goSetting"
+            android:src="@drawable/setting"
+            android:layout_width="wrap_content"/>
+
+    </GridLayout>
+</RelativeLayout>

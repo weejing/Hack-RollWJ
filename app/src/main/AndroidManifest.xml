@@ -2,10 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weejing.myapplication">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-
 
     <application
         android:allowBackup="true"
@@ -23,6 +21,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Gridlayout"
+            android:label="@string/title_activity_gridlayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".detailedlayout"
+            android:label="@string/title_activity_detailedlayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompanyPage"
+            android:label="@string/title_activity_company_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".updateMenuA"
+            android:label="@string/title_activity_update_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".notificationA"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CurrentOrderA"
+            android:label="@string/title_activity_current_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settingA"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

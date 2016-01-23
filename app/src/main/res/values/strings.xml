@@ -5,4 +5,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_company_page">companyPage</string>
+    <string name="title_activity_gridlayout">Gridlayout</string>
+    <string name="title_activity_detailedlayout">detailedlayout</string>
+    <string name="title_activity_update_menu">updateMenuA</string>
+    <string name="title_activity_notification">notificationA</string>
+    <string name="title_activity_current_order">CurrentOrderA</string>
+    <string name="title_activity_setting">settingA</string>
+    <string name="title_activity_text_view">textView</string>
+
 </resources>
