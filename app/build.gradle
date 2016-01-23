@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.weejing.myapplication"
-        minSdkVersion 18
+        minSdkVersion 20
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    packagingOptions{
+    packagingOptions {
 
         exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.properties'
         exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.xml'
@@ -31,4 +31,5 @@ dependencies {
     compile 'com.android.support:support-v4:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.squareup.okhttp3:okhttp:3.0.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
 }
